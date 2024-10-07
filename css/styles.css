@@ -190,13 +190,17 @@ footer {
   margin-bottom: 10px;
 }
 
+
+
 .social-icons a {
   margin: 0 10px;
   color: #fff;
   text-decoration: none;
   font-size: 24px;
 }
-
+.social-icons a:hover {
+  color: #ff4500
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-links {

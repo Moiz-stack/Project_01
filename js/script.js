@@ -4,6 +4,7 @@ const navLinks = document.querySelector('.nav-links');
 
 mobileMenu.addEventListener('click', () => {
   navLinks.classList.toggle('show');
+  mobileMenu.classList.toggle('active');  // Toggle the active class
 });
 
 // Initialize particles.js
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (index < text.length) {
       typingText.textContent += text.charAt(index);
       index++;
-      setTimeout(type, 140);
+      setTimeout(type, 100);
     }
   }
 
